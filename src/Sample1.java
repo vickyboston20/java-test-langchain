@@ -2,7 +2,7 @@ package src;
 
 public class Sample1 {
     // Declare a private integer variable for the BIN number.
-    private int binNumber = 6;
+    private int binNumber = 12345678;
 
     public Sample1() {
     }
