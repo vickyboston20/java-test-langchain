@@ -4,7 +4,7 @@ package src;
 public class Sample {
     public static void main(String[] args) {
         // Use the BIN_NUMBER utility to format the BIN number as a 6-digit string, padded on the left with '0'
-        String formattedBin = BinNumberUtil.BIN_NUMBER(6, '0', PaddingDirection.LEFT);
+        String formattedBin = BinNumberUtil.BIN_NUMBER(8, '0', PaddingDirection.LEFT);
         System.out.println("Formatted BIN Number: " + formattedBin);
     }
 }
